@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+.header{
+    background-color: #363636;
+    overflow: hidden;
+
+
+}
+
+.logo {
+    float: left;
+    background-color: #363636;
+    color: #363636;
+   
+
+}
+
+.nav {
+    float: left;
+    width: 500px;
+    
+    
+}
+
+.logo > img{
+    width: auto;
+    height: 50px;
+    background-color: #363636;
+    color: #363636;
+    ;
+}
+
+.nav > ul {
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+   
+}
+
+.nav a {
+ color: white;
+ text-decoration:dotted;
+ font-size: 1.2rem;
+ 
+}
+
+.nav a:hover {
+    background-color: rgb(13, 21, 19);   /*otan pataw panv na exei xrwma*/
+}
+
+.nav a:active {
+    background-color: rgb(63, 63, 65);
+}
+
+.home-img {
+    background-image: url(../img/project2.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    height: 10%;
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.gap-bottom {
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-title {
+    color: white;
+    position: absolute;
+    bottom: 220px;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-weight: 1;
+    height: 10%;
+}
+.second-title > span {
+    
+    margin-left: 140px;
+
+}
+
+.main-title {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.gap-bottom {
+    color: #363636;
+    margin-left: 40px;
+}
+.footer {
+    display: flex;
+    height: 100%;
+    background-color: #363636;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+    border: 2px solid gray; /* Προσθήκη περιγράμματος */
+}
+
+.fa-square-twitter{
+    color: blue;
+}
+

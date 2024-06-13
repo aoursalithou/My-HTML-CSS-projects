@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.outer{
+    background-color: brown;
+    width: 550px;
+    padding: 20px 10px;
+    text-align: center;
+    margin: 0px auto;
+   
+    
+}
+.middle{
+    background-color: rgb(75, 164, 219);
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 0px;
+    border-radius: 10px;
+   
+
+}
+.rounded{
+    border-radius: 25px;
+}
+
+.inner{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    width: 98%;
+    padding: 5px 5px;
+}
+
+.gap-bottom{
+    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-top: 50px;
+    
+}
+     
+    
+.form-input{
+    width: 50%;
+    height: 48px;
+    background-color: white;
+    border-radius: 15px;
+    border-width: 0;
+    padding-left: 10px;
+    border: 2px solid black;
+    margin-right: 120px;
+    text-align:center
+
+
+    
+    
+}
+.mail{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+.form-btn{
+    width: 40%;
+    height: 48px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background-color: #88d1f0;
+    margin-top: 20px;
+    margin-right: 170px;
+}
+
+form {
+    
+    height: 350px;
+    
+}
+.gap-top{
+    margin-top: 20px;
+    margin-right: 60px;
+
+}
+.mail-icon{
+    position: absolute;
+    width: 30px;
+    margin-top: 2%;
+
+}
+.password-icon{
+    position: absolute;
+    width: 30px;
+    margin-top: 1%;
+    
+
+} 
+ 
+::placeholder{
+    text-align: center;
+    margin-left: 135px;
+}
