@@ -1,0 +1,1 @@
+This repository dedicated to entry-level HTML and CSS exercises. These exercises are created to help beginners develop their skills in constructing and styling web pages using HTML, CSS, and Bootstrap.
